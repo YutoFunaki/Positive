@@ -1,6 +1,6 @@
 header {
   height: 300px;
-  width: auto;
+  width: 100%;
   background-color: rgb(110, 65, 65);
 }
 
@@ -9,6 +9,7 @@ header h1 {
   padding-top: 110px;
   font-size: 40px;
   color: rgb(187, 155, 155);
+  font-family: "游ゴシック体";
 }
 
 header p {
@@ -29,6 +30,7 @@ nav {
   top:0;
   left:0;
   display: flex;
+  opacity: 0.8;
 }
 nav img {
   width: 50px;
@@ -54,4 +56,10 @@ a {
 }
 a:hover {
   opacity: 0.5;
+}
+
+main {
+  height: 1200px;
+  width: 100%;
+  background-color: bisque;
 }
