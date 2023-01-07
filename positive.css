@@ -28,6 +28,7 @@ nav {
   position:fixed;
   top:0;
   left:0;
+  display: flex;
 }
 nav img {
   width: 50px;
@@ -35,12 +36,13 @@ nav img {
 }
 ul {
   display: flex;
+  margin-left: 910px;
 }
 .nav-li {
   padding-top: 15px;
   list-style: none;
 }
-.nav-li-img {
+.nav-img {
   padding-left: 20px;
   list-style: none;
 }
