@@ -63,3 +63,34 @@ main {
   width: 100%;
   background-color: bisque;
 }
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  opacity: 0.6;
+  padding-top: 20px;
+}
+
+.user1 {
+  display: flex;
+}
+
+.user1 img {
+  width: 500px;
+  height: 500px;
+}
+
+.user-image p{
+  margin-left: 130px;
+  font-size: large
+}
+
+.user2 {
+  display: flex;
+  margin-top: 100px;
+}
+
+.user2 img {
+  width: 500px;
+  height: 500px;
+}
