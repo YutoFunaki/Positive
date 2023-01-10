@@ -101,6 +101,14 @@ h2 {
   opacity: 0.7;
 }
 
+.try {
+  text-align: center;
+  margin-top: 100px;
+}
+.try a {
+  font-size: x-large;
+}
+
 footer {
   height: 200px;
   width: 100%;
