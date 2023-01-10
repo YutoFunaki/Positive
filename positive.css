@@ -107,6 +107,9 @@ h2 {
 }
 .try a {
   font-size: x-large;
+  background-color: rgb(49, 49, 255);
+  padding: 40px;
+  margin: 0;
 }
 
 footer {
