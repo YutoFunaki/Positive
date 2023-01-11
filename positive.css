@@ -168,4 +168,6 @@ a.btn--radius {
 footer {
   height: 100px;
   width: 100%;
+  background-color: #351506;
+  text-align: center;
 }
