@@ -48,7 +48,7 @@ ul {
   padding-left: 20px;
   list-style: none;
 }
-a {
+.nav-a {
   display: block;
   text-decoration: none;
   color: white;
@@ -105,14 +105,65 @@ h2 {
   text-align: center;
   margin-top: 100px;
 }
-.try a {
-  font-size: x-large;
-  background-color: rgb(49, 49, 255);
-  padding: 40px;
-  margin: 0;
+
+a.btn--orange {
+  color: #fff;
+  background-color: #008deb;
+  border-bottom: 5px solid #0062b8;
+  font-size: xx-large;
+  padding: 20px;
+}
+a.btn--orange:hover {
+  margin-top: 3px;
+  color: #fff;
+  background: #00c4f5;
+  border-bottom: 2px solid #0075b8;
+}
+a.btn--shadow {
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
 }
 
+a.btn--radius {
+   border-radius: 100vh;
+}
+
+#page_top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: #3f98ef;
+  opacity: 0.6;
+  border-radius: 50%;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -5px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+
+
 footer {
-  height: 200px;
+  height: 100px;
   width: 100%;
 }
