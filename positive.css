@@ -171,3 +171,9 @@ footer {
   background-color: #351506;
   text-align: center;
 }
+
+footer p {
+  font-size: large;
+  color: aliceblue;
+  padding-top: 45px;
+}
