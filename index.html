@@ -1,60 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="resetPositive.css">
-  <link rel="stylesheet" href="positive.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
-  <title>ポネタ</title>
-</head>
-<body>
+<!doctype html>
+<html lang="ja">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <div class="navigation">
-    <nav>
-      <a href="#" class="nav-img"><img src="positive_img/positive.png" alt=""></a>
-      <ul class="nav-ul">
-        <li class="nav-li"><a class="nav-a" href="#" target="_blank" rel="noopener noreferrer">お問い合わせ</a></li>
-        <li class="nav-li"><a class="nav-a" href="https://github.com/YutoFunaki" target="_blank" rel="noopener noreferrer">github</a></li>
-        <li class="nav-li"><a class="nav-a" href="#" target="_blank" rel="noopener noreferrer">新規登録</a></li>
-        <li class="nav-li"><a class="nav-a" href="#" target="_blank" rel="noopener noreferrer">ログイン</a></li>
-      </ul>
-    </nav>
-  </div>
+    <!-- Bootstrap CSSの読み込み -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="positive.css">
 
-  <header>
-    <h1>ポネタ</h1>
-    <p>ポネタは、人生を少しだけ明るくするアプリです。</p>
-  </header>
+    <title>Bootstrap Practice</title>
+  </head>
+  <body>
 
-  <main>
-    <h2>ユーザーの声</h2>
-    <div class="user1">
-      <div class="user-image">
-        <img src="positive_img/user1.png" alt="">
-        <p>トイレの猫さん(仮名)(2歳)</p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand text-dark" href="#"><img src="positive_img/positive.png" alt="" class="image"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ">
+              <a class="nav-link text-dark" href="#"><span class="sr-only">(current)</span></a>
+              <a class="nav-link text-dark" href="#form">お問い合わせ</a>
+              <a class="nav-link text-dark" href="#signup">新規登録</a>
+              <a class="nav-link text-dark" href="#signin">ログイン</a>
+          </div>
       </div>
-      <p class="user-text">非常に面白いサービスだと思います。ええ、トイレしながらでもついつい開いてしまうほどですよ(笑)</p>
-      <p></p>
-    </div>
-    <div class="user2">
-      <div class="user-image">
-        <img src="positive_img/user2.png" alt="">
-        <p>晩酌中の猫さん(仮名)(5歳)</p>
-      </div>
-     <p class="user-text">ポネタ？ああ、あれね。楽しいですよ。うん。家族みんなで楽しめるしね！</p>
-    </div>
+  </nav>
 
-    <div class="try">
-      <a href="" class="btn btn--orange btn--cubic btn--shadow" target="_blank" rel="noopener noreferrer">みてみる！</a>
-    </div>
-
-    <div id="page_top"><a href="#"></a></div>
-  </main>
-
-  <footer>
-    <p>ふなき</p>
-  </footer>
-</body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, Popper.js, Bootstrap JSの順番に読み込む -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
 </html>
