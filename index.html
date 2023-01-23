@@ -1,72 +1,115 @@
-<!doctype html>
-<html lang="ja">
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSSの読み込み -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="positive.css">
-
-    <title>Bootstrap Practice</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>ポネタ</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
   </head>
   <body>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand text-dark" href="#"><img src="positive_img/positive.png" alt="" class="image"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ">
-              <a class="nav-link text-dark" href="#"><span class="sr-only">(current)</span></a>
-              <a class="nav-link text-dark" href="#form">お問い合わせ</a>
-              <a class="nav-link text-dark" href="#signup">新規登録</a>
-              <a class="nav-link text-dark" href="#signin">ログイン</a>
+    <!-- Start your project here-->
+    <header>
+      <!-- Intro settings -->
+      <style>
+        /* Default height for small devices */
+        #intro-example {
+          height: 400px;
+        }
+    
+        /* Height for devices larger than 992px */
+        @media (min-width: 992px) {
+          #intro-example {
+            height: 600px;
+          }
+        }
+      </style>
+    
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarExample01"
+            aria-controls="navbarExample01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarExample01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+            </ul>
           </div>
-      </div>
-  </nav>
-
-
-
-<!-- カード -->
-<div class="container py-4" id="works">
-  <h2>ポネタ</h2>
-  <p>ポネタは、視界を少しだけ明るくしてくれるアプリです。</p>
-  <div class="card-deck">
-      <div class="card">
-        <div class="card-body">
-          <a href="#q1">
-            <h5 class="card-title">鳥のフンを肩に落とされました。悲しいです。</h5>
-          <p class="card-text">調べたところ、鳥のフンが直撃する確率って1/4230000らしいです。とても幸運なことだと思いますよ！</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </a>
+        </div>
+      </nav>
+      <!-- Navbar -->
+    
+      <!-- Background image -->
+      <div
+        id="intro-example"
+        class="p-5 text-center bg-image"
+        style="background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');"
+      >
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-white">
+              <h1 class="mb-3">Learn Bootstrap 5 with MDB</h1>
+              <h5 class="mb-4">Best & free guide of responsive web design</h5>
+              <a
+                class="btn btn-outline-light btn-lg m-2"
+                href="https://www.youtube.com/watch?v=c9B4TPnak1A"
+                role="button"
+                rel="nofollow"
+                target="_blank"
+              >Start tutorial</a
+              >
+              <a
+                class="btn btn-outline-light btn-lg m-2"
+                href="https://mdbootstrap.com/docs/standard/"
+                target="_blank"
+                role="button"
+              >Download MDB UI KIT</a
+              >
+            </div>
+          </div>
         </div>
       </div>
-      <div class="card">
-        <img src="img/sample4.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Work2</h5>
-          <p class="card-text">This is sample description.This is sample description.This is sample description.This is sample description.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
-      <div class="card">
-        <img src="img/sample4.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Work3</h5>
-          <p class="card-text">This is sample description.This is sample description.This is sample description.This is sample description.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-        </div>
-      </div>
-  </div>
-</div>
+      <!-- Background image -->
+    </header>
+    
+    <!-- End your project here-->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, Popper.js, Bootstrap JSの順番に読み込む -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
   </body>
 </html>
